@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <!-- Events: onFocus , onBlur -->
+    <h1>Color</h1>
+    <input type="text" size="20" placeholder="Enter your text here:" onFocus="this.style.backgroundColor='skyblue';"
+        onBlur="this.style.backgroundColor='white';" onBlur="this.style.borderRadius='white';">
+
+        <!-- onSubmit -->
+    <br><br>
+    <form onSubmit="checkAddress('cnic');"> CNIC:
+        <input type="text" id="cnic" placeholder="Enter your CNIC">
+        <input type="submit" value="Submit">
+    </form>
+    
+
+</body>
+
+</html>
